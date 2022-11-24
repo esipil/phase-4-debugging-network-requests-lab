@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: The error was "uninitialized constant toys. This was because there is no class as Toys rather Toy. Changing the typo fixes the bug
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: The error displayed was unexpected end of JSON input from the frontend. This was because no response was being received when the toy was updated. Rendering a response from the backend, the controller, fixes the bug. 
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: This was caused by a routing error, no routes matches the the delete toys/:id. Adding the destroy route in the resources exceptions in the routes
