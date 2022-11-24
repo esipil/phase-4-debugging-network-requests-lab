@@ -70,4 +70,4 @@ developing your own process.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged: This was caused by a routing error, no routes matches the the delete toys/:id. Adding the destroy route in the resources exceptions in the routes
+  - How I debugged: This was caused by a routing error, no routes matches the the delete toys/:id. Adding the destroy route in the resources exceptions in the routes fixes the bug
